@@ -1,1 +1,1 @@
-worker: node netbot.js
+worker: node Skynet.js
