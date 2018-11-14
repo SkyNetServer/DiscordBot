@@ -16,11 +16,11 @@ module.exports = class InviteCommand extends Command {
 
 	run(msg) {
 		return msg.say(stripIndents`
-			You can invite me to your server using this: **coming soon**
+			You can't invite me to your server but!
 
 
 
-you can also join my home server:
+you can join my Skynet Network server to use me:
 ${this.client.options.invite || 'Coming soon...'}
 
 `);
