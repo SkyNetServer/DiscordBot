@@ -1,0 +1,77 @@
+{
+	"name": "SkyNet",
+	"version": "91.9.2",
+	"description": "An update of Xioa | By Skynet team",
+	"main": "Skynet.js",
+	"scripts": {
+		"test": "npm run lint",
+		"lint": "eslint . --ext .js --ext .json",
+		"start": "node Skynet.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:SkyNetServer/DiscordBot.git"
+	},
+	"keywords": [
+		"bot",
+		"commando",
+		"discord",
+		"discord-api",
+		"discord-bot",
+		"discord-js",
+		"discord-js-commando"
+	],
+	"author": "Skynet <skynet.business.email@gmail.com>",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/SkyNetServer/DiscordBot/issues"
+	},
+	"homepage": "https://github.com/SkyNetServer/DiscordBot",
+	"engines": {
+		"node": ">=10"
+	},
+	"dependencies": {
+		"@discordjs/uws": "^10.149.0",
+		"booru": "^0.3.6", 
+		"quick.db": "^6.3.2",
+		"ffmpeg":"0.0.4",
+		"google-tts-api":"0.0.3",
+		"cleverbot-unofficial-api": "^0.1.0",
+		"klasa": "github:dirigeants/klasa",
+		"emoji-regex": "^7.0.1",
+		"canvas": "^2.0.1",
+		 "simple-youtube-api": "^5.0.1",
+		"ytdl-core": "0.25.2",
+		"cheerio": "^1.0.0-rc.2",
+		"snekfetch": "^4.0.4",
+		"request-promise": "^4.0.0",
+		"common-tags": "^1.8.0",
+		"cowsay": "^1.3.1",
+		"random-puppy": "^1.1.0",
+		"custom-translate": "^2.2.7",
+		"discord.js": "github:discordjs/discord.js",
+		"discord.js-commando": "github:discordjs/Commando",
+		"dotenv": "^6.0.0",
+		"erlpack": "github:discordapp/erlpack",
+		"mathjs": "^5.1.2",
+		"moment": "^2.22.2",
+		"moment-duration-format": "^2.2.2",
+		"moment-timezone": "^0.5.21",
+		"neopet-image-finder": "^5.0.2",
+		"node-opus": "^0.3.0",
+		"node-superfetch": "^0.1.5",
+		"random-js": "^1.0.8",
+		"zlib-sync": "^0.1.4"
+	},
+	"devDependencies": {
+		"eslint": "^5.6.0",
+		"eslint-config-amber": "^1.1.0",
+		"eslint-plugin-json": "^1.2.1"
+	},
+	"eslintConfig": {
+		"extends": "amber",
+		"plugins": [
+			"json"
+		]
+	}
+}

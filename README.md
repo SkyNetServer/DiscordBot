@@ -1,2 +1,0 @@
-# DiscordBot
-Skynet discord bot
