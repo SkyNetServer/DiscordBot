@@ -20,7 +20,7 @@ client.registry
 	['suggestions','suggestions'],
 		['info', 'Discord Information'],
 		['random', 'Random Response'], 
-	['nsfw','NSFW'],
+	['music','Music'],
 		['single', 'Single Response'],
 		['events', 'Events'],
 		['search', 'Search'],
