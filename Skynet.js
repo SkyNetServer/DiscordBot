@@ -60,6 +60,10 @@ client.on('disconnect', event => {
 
 client.on('commandRun', command => console.log(`[COMMAND] Ran command ${command.groupID}:${command.memberName}.`));
 
+client.on('guildMemberAdd', (guildMember) => {
+   guildMember.addRole(guildMember.guild.roles.find(role => role.name === "Skynet User"));
+}
+
 client.on('error', err => console.error('[ERROR]', err));
 
 client.on('warn', err => console.warn('[WARNING]', err));
