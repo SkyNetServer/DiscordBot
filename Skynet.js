@@ -27,7 +27,6 @@ client.registry
 		['analyze', 'Analyzers'],
 		['games', 'Games'],	 
 	['mod','Moderation'],
-		['voice', 'Voice Channel'],
 		['image-edit', 'Image Manipulation'],
 		['avatar-edit', 'Avatar Manipulation'],
 		['text-edit', 'Text Manipulation'],
