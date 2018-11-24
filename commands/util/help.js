@@ -26,7 +26,7 @@ module.exports = class HelpCommand extends Command {
 		if (!command) {
 			const embed = new MessageEmbed()
 				.setTitle('Command List')
-			      .setDescription("The prefix is ``$`` \n use ``$help {command name}`` for more info. Ex: ``$help rip``")
+			      .setDescription("The prefix is ``/`` \n use ``/help {command name}`` for more info. Ex: ``/help rip``")
 			       .setTimestamp()
 				.setColor("#00FFFF")		
 				.setFooter(`${this.client.registry.commands.size} Commands in all`)
