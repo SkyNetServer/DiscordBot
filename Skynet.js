@@ -61,6 +61,10 @@ client.on('commandRun', command => console.log(`[COMMAND] Ran command ${command.
 
 client.on('error', err => console.error('[ERROR]', err));
 
+client.on('guildMemberAdd', (guildMember) => {
+   guildMember.addRole(guildMember.guild.roles.find(role => role.name === "Skynet User"));
+});
+	  
 client.on('warn', err => console.warn('[WARNING]', err));
 
 client.on('commandError', (command, err) => console.error('[COMMAND ERROR]', command.name, err));
